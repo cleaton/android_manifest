@@ -249,9 +249,5 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
-  <project path="vendor/samsung" name="yjwong/android_proprietary_samsung" remote="github" revision="ics" />
-  <project path="device/samsung/galaxys2" name="yjwong/android_device_samsung_galaxys2" remote="github" revision="ics" />
-  <project path="kernel/samsung/c1" name="yjwong/samsung-kernel-c1" remote="github" revision="ics-samsung-2.6.35.14" />
-  <project path="kernel/samsung/galaxys2" name="yjwong/android_kernel_samsung_galaxys2" remote="github" revision="android-samsung-3.0" />
 
 </manifest>
