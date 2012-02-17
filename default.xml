@@ -152,7 +152,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="ics" /> <!-- Needed for CWM -->
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -249,5 +248,5 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
-
+  <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
 </manifest>
