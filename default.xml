@@ -127,7 +127,6 @@
   <!-- <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" /> Excluded -->
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -166,7 +165,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
@@ -242,11 +240,13 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
 
   <!-- Additional hardware support from CyanogenMod -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
+  <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="ics-sgs2" />
 </manifest>
