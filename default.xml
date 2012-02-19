@@ -245,6 +245,8 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
