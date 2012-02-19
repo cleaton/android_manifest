@@ -180,7 +180,6 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -220,7 +219,6 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
@@ -251,4 +249,9 @@
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="ics-sgs2" />
+  <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
+  <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
+  
+  <!-- Extra packages -->
+  <project path="packages/apps/FileExplorer" name="cleaton/FileExplorer" remote="github" revision="ics" />
 </manifest>
