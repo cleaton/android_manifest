@@ -253,5 +253,4 @@
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
   
   <!-- Extra packages -->
-  <project path="packages/apps/FileExplorer" name="cleaton/FileExplorer" remote="github" revision="ics" />
 </manifest>
