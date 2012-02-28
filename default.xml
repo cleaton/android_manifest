@@ -250,8 +250,8 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" /> -->
 
   <!-- Samsung Galaxy S2 AOSP-specific trees -->
-  <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
-  <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="ics-sgs2" />
+  <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="omxdev" />
+  <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="omxdev" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
   
