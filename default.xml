@@ -254,8 +254,7 @@
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="omxdev" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
- <!-- <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="ics" /> -->
-  <!--<project path="hardware/sec" name="cleaton/android_hardware_sec" remote="github" revision="ics" />-->
+  <project path="hardware/samsung" name="cleaton/android_hardware_sec" remote="github" revision="ics" />-
   
   <!-- Linaro extras -->
   <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_4.0.3" /> -->
