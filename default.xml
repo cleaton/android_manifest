@@ -243,18 +243,19 @@
   <project path="system/netd" name="platform/system/netd" />
 
   <!-- Additional hardware support from CyanogenMod -->
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />
+  <!--<project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />-->
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="ics" />
   <!--<project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" /> -->
 
-  <!-- Samsung Galaxy S2 AOSP-specific trees -->
+  <!-- Samsung Galaxy S2 patched AOSP based trees -->
+  <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="ics" />
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="omxdev" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="omxdev" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
-  <project path="hardware/samsung" name="cleaton/android_hardware_sec" remote="github" revision="ics" />-
+  <!-- <project path="hardware/samsung" name="cleaton/android_hardware_sec" remote="github" revision="ics" /> -->
   
   <!-- Linaro extras -->
   <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_4.0.3" /> -->
