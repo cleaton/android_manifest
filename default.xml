@@ -251,7 +251,7 @@
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
   <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="ics" />
-  <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
+  <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="toggle-dev" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="ics-sgs2" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
