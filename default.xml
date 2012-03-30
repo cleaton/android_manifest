@@ -256,6 +256,7 @@
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
   <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="ics" />
+  <project path="packages/apps/SamsungServiceMode" name="cleaton/android_packages_apps_SamsungServiceMode" remote="github" revision="ics" />
   
   <!-- koud extras -->
   <project path="packages/apps/0xbench" name="cleaton/android_0xbench" remote="github" revision="linaro-master" />
