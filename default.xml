@@ -13,12 +13,12 @@
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp" />
   
-  <project path="build" name="CyanogenMod/android_build" remote="github" revision="ics">
+  <project path="build" name="cleaton/platform_build" remote="github" revision="ics-sgs2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic"/>
+  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="github" revision="ics" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="ics" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="ics" />
@@ -105,6 +105,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -130,6 +131,7 @@
   <!-- <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" /> Excluded -->
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -213,7 +215,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -242,24 +243,23 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
 
-  <!-- Additional hardware support from CyanogenMod -->
-  <!--<project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="ics" />-->
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="ics" />
-  <!--<project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" /> -->
+  <!-- Additional hardware support forked forked CyanogenMod -->
+  <project path="system/vold" name="cleaton/android_system_vold" remote="github" revision="ics" />
+  <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="ics" />
+  <project path="packages/apps/SamsungServiceMode" name="cleaton/android_packages_apps_SamsungServiceMode" remote="github" revision="ics" />
+  <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
+  <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="ics" />
+  <project path="packages/inputmethods/LatinIME" name="cleaton/android_packages_inputmethods_LatinIME" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
-  <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="ics" />
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="ics-sgs2" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="ics-sgs2" />
-  <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
-  <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="ics" />
-  <project path="packages/apps/SamsungServiceMode" name="cleaton/android_packages_apps_SamsungServiceMode" remote="github" revision="ics" />
+  
+
   
   <!-- koud extras -->
-  <project path="packages/apps/0xbench" name="cleaton/android_0xbench" remote="github" revision="linaro-master" />
+  <!--<project path="packages/apps/0xbench" name="cleaton/android_0xbench" remote="github" revision="linaro-master" /> -->
   
   <!-- Linaro extras -->
   <!--<project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" remote="linaro" revision="linaro-master" /> -->
