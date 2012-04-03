@@ -131,7 +131,6 @@
   <!-- <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" /> Excluded -->
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -250,6 +249,7 @@
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="ics-sgs2" />
   <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="ics" />
   <project path="packages/inputmethods/LatinIME" name="cleaton/android_packages_inputmethods_LatinIME" remote="github" revision="ics" />
+  <project path="external/skia" name="cleaton/android_external_skia" remote="github" revision="ics" />
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="ics-sgs2" />
