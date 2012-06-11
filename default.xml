@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.0.4_r1.1"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp" />
   
   <project path="build" name="cleaton/platform_build" remote="github" revision="ics-sgs2">
