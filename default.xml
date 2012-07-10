@@ -300,10 +300,11 @@
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="jb-merge" />
   <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="jb-merge" />
   <!-- <project path="packages/inputmethods/LatinIME" name="cleaton/android_packages_inputmethods_LatinIME" remote="github" revision="ics" />  -->
-  <project path="external/skia" name="cleaton/android_external_skia" remote="github" revision="jb-merge" />
+  
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
   <!-- <project path="system/core" name="cleaton/platform_system_core" remote="github" revision="jb-merge" /> --> 
+  <project path="external/skia" name="cleaton/platform_external_skia" remote="github" revision="jb-koud" />
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="jb-merge" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="jb-merge" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="jb-merge" />
