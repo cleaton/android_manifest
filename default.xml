@@ -287,6 +287,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -302,7 +303,7 @@
   <project path="external/skia" name="cleaton/android_external_skia" remote="github" revision="jb-merge" />
 
   <!-- Samsung Galaxy S2 patched AOSP based trees -->
-  <project path="system/core" name="cleaton/platform_system_core" remote="github" revision="jb-merge" />
+  <!-- <project path="system/core" name="cleaton/platform_system_core" remote="github" revision="jb-merge" /> --> 
   <project path="frameworks/base" name="cleaton/platform_frameworks_base" remote="github" revision="jb-merge" />
   <project path="hardware/libhardware" name="cleaton/platform_hardware_libhardware" remote="github" revision="jb-merge" />
   <project path="packages/apps/Camera" name="cleaton/platform_packages_apps_camera" remote="github" revision="jb-merge" />
