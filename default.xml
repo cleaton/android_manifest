@@ -291,6 +291,7 @@
   <project path="system/security" name="platform/system/security" />
 
   <!-- Additional hardware support forked forked CyanogenMod -->
+  <project name="CyanogenMod/android_kernel_samsung_smdk4210" path="kernel/samsung/smdk4210" remote="github" revision="ics" />
   <project path="system/extras" name="cleaton/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/vold" name="cleaton/android_system_vold" remote="github" revision="jellybean" />
   <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="jb-koud" />
