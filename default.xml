@@ -297,7 +297,7 @@
   <project path="hardware/samsung" name="cleaton/android_hardware_samsung" remote="github" revision="jb-koud" />
   <project path="packages/apps/SamsungServiceMode" name="cleaton/android_packages_apps_SamsungServiceMode" remote="github" revision="ics" />
   <project path="packages/providers/MediaProvider" name="cleaton/android_packages_providers_MediaProvider" remote="github" revision="jb-merge" />
-  <project path="device/samsung/galaxys2" name="cleaton/android_device_samsung_galaxys2" remote="github" revision="jb-merge" />
+  <project path="device/samsung/galaxys2" name="cleaton/device_samsung_galaxys2" remote="github" revision="jb" />
   <!-- <project path="packages/inputmethods/LatinIME" name="cleaton/android_packages_inputmethods_LatinIME" remote="github" revision="ics" />  -->
   
 
